@@ -1,17 +1,20 @@
-fun typeconversion(){
 
-    val n: Int =10
-    val d: Double=n.toDouble()
-    println("Int value : $n")
-    println("Double value(from integer) : $d")
+fun main() {
+    val a: Int= 81
+    val b: Double =8.1
+    val c: Char='A'
+    val d: Boolean= true
+    val e: Long= 20012011081
+    val f: Short= -81
+    val g: Byte= 81
 
-    val s: String=n.toString()
-    println("String value : $s")
-    println("String value1 (From String): $s")
-    println("String value2 (From String): $s")
-    val s1: String="11.12"
-    val d1:Double=s1.toDouble()
-    println("Double value (from string) : $d1")
+    println("Int : $a")
+    println("Double : $b")
+    println("Char : $c")
+    println("Boolean : $d")
+    println("Long : $e")
+    println("Short : $f")
+    println("Byte : $g")
 
 
 }
