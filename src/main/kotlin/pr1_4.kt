@@ -12,5 +12,3 @@ fun main(){
     println(ans)
 }
 
-Footer
-© 2022 Gi
